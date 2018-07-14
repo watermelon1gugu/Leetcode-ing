@@ -1,0 +1,2 @@
+Options: 
+CMake: 3.9.6@/home/arch1tect_leaves/下载/cmake-3.9.6/bin/cmake
