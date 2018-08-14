@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/arch1tect/CLionProjects/leetcode16/main.cpp
+/home/arch1tect/Leetcoding/Leetcode-ing/leetcode15/main.cpp
 iostream
 -
 vector

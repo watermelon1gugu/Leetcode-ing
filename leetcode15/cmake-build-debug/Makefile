@@ -48,24 +48,13 @@ RM = /home/arch1tect/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/arch1tect/Leetcoding/Leetcode-ing/leetcode16
+CMAKE_SOURCE_DIR = /home/arch1tect/Leetcoding/Leetcode-ing/leetcode15
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug
+CMAKE_BINARY_DIR = /home/arch1tect/Leetcoding/Leetcode-ing/leetcode15/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/arch1tect/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -78,11 +67,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/home/arch1tect/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug/CMakeFiles /home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arch1tect/Leetcoding/Leetcode-ing/leetcode15/cmake-build-debug/CMakeFiles /home/arch1tect/Leetcoding/Leetcode-ing/leetcode15/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arch1tect/Leetcoding/Leetcode-ing/leetcode15/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named leetcode16
+# Target rules for targets named leetcode15
 
 # Build rule for target.
-leetcode16: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 leetcode16
-.PHONY : leetcode16
+leetcode15: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 leetcode15
+.PHONY : leetcode15
 
 # fast build rule for target.
-leetcode16/fast:
-	$(MAKE) -f CMakeFiles/leetcode16.dir/build.make CMakeFiles/leetcode16.dir/build
-.PHONY : leetcode16/fast
+leetcode15/fast:
+	$(MAKE) -f CMakeFiles/leetcode15.dir/build.make CMakeFiles/leetcode15.dir/build
+.PHONY : leetcode15/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/leetcode16.dir/build.make CMakeFiles/leetcode16.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/leetcode15.dir/build.make CMakeFiles/leetcode15.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/leetcode16.dir/build.make CMakeFiles/leetcode16.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/leetcode15.dir/build.make CMakeFiles/leetcode15.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/leetcode16.dir/build.make CMakeFiles/leetcode16.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/leetcode15.dir/build.make CMakeFiles/leetcode15.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -156,9 +156,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... leetcode16"
+	@echo "... rebuild_cache"
+	@echo "... leetcode15"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

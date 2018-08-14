@@ -59,45 +59,45 @@ RM = /home/arch1tect/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/arch1tect/Leetcoding/Leetcode-ing/leetcode16
+CMAKE_SOURCE_DIR = /home/arch1tect/Leetcoding/Leetcode-ing/leetcode15
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug
+CMAKE_BINARY_DIR = /home/arch1tect/Leetcoding/Leetcode-ing/leetcode15/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/leetcode16.dir
+# Target rules for target CMakeFiles/leetcode15.dir
 
 # All Build rule for target.
-CMakeFiles/leetcode16.dir/all:
-	$(MAKE) -f CMakeFiles/leetcode16.dir/build.make CMakeFiles/leetcode16.dir/depend
-	$(MAKE) -f CMakeFiles/leetcode16.dir/build.make CMakeFiles/leetcode16.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target leetcode16"
-.PHONY : CMakeFiles/leetcode16.dir/all
+CMakeFiles/leetcode15.dir/all:
+	$(MAKE) -f CMakeFiles/leetcode15.dir/build.make CMakeFiles/leetcode15.dir/depend
+	$(MAKE) -f CMakeFiles/leetcode15.dir/build.make CMakeFiles/leetcode15.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arch1tect/Leetcoding/Leetcode-ing/leetcode15/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target leetcode15"
+.PHONY : CMakeFiles/leetcode15.dir/all
 
 # Include target in all.
-all: CMakeFiles/leetcode16.dir/all
+all: CMakeFiles/leetcode15.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/leetcode16.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/leetcode16.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/leetcode16.dir/rule
+CMakeFiles/leetcode15.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arch1tect/Leetcoding/Leetcode-ing/leetcode15/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/leetcode15.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arch1tect/Leetcoding/Leetcode-ing/leetcode15/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/leetcode15.dir/rule
 
 # Convenience name for target.
-leetcode16: CMakeFiles/leetcode16.dir/rule
+leetcode15: CMakeFiles/leetcode15.dir/rule
 
-.PHONY : leetcode16
-
-# clean rule for target.
-CMakeFiles/leetcode16.dir/clean:
-	$(MAKE) -f CMakeFiles/leetcode16.dir/build.make CMakeFiles/leetcode16.dir/clean
-.PHONY : CMakeFiles/leetcode16.dir/clean
+.PHONY : leetcode15
 
 # clean rule for target.
-clean: CMakeFiles/leetcode16.dir/clean
+CMakeFiles/leetcode15.dir/clean:
+	$(MAKE) -f CMakeFiles/leetcode15.dir/build.make CMakeFiles/leetcode15.dir/clean
+.PHONY : CMakeFiles/leetcode15.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/leetcode15.dir/clean
 
 .PHONY : clean
 

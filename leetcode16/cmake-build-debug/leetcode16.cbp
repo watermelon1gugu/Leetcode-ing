@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/arch1tect/CLionProjects/leetcode16/cmake-build-debug"/>
+				<Option working_dir="/home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/arch1tect/CLionProjects/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/arch1tect/CLionProjects/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/arch1tect/CLionProjects/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/arch1tect/CLionProjects/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/arch1tect/CLionProjects/leetcode16/cmake-build-debug"/>
+				<Option working_dir="/home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/arch1tect/CLionProjects/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/arch1tect/CLionProjects/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/arch1tect/CLionProjects/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/arch1tect/CLionProjects/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/arch1tect/CLionProjects/leetcode16/cmake-build-debug"/>
+				<Option working_dir="/home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/arch1tect/CLionProjects/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/arch1tect/CLionProjects/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/arch1tect/CLionProjects/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/arch1tect/CLionProjects/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="leetcode16">
-				<Option output="/home/arch1tect/CLionProjects/leetcode16/cmake-build-debug/leetcode16" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/arch1tect/CLionProjects/leetcode16/cmake-build-debug"/>
+				<Option output="/home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug/leetcode16" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,15 +54,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/arch1tect/CLionProjects/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode16"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/arch1tect/CLionProjects/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/arch1tect/CLionProjects/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/arch1tect/CLionProjects/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode16"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="leetcode16/fast">
-				<Option output="/home/arch1tect/CLionProjects/leetcode16/cmake-build-debug/leetcode16" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/arch1tect/CLionProjects/leetcode16/cmake-build-debug"/>
+				<Option output="/home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug/leetcode16" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,17 +77,17 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/arch1tect/CLionProjects/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode16/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/arch1tect/CLionProjects/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/arch1tect/CLionProjects/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/arch1tect/CLionProjects/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode16/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/arch1tect/CLionProjects/leetcode16/main.cpp">
+		<Unit filename="/home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/main.cpp">
 			<Option target="leetcode16"/>
 		</Unit>
-		<Unit filename="/home/arch1tect/CLionProjects/leetcode16/CMakeLists.txt">
+		<Unit filename="/home/arch1tect/Leetcoding/Leetcode-ing/leetcode16/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
